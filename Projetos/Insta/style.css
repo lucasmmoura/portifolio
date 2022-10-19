@@ -1,0 +1,158 @@
+body{
+    color: #262626;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 750px;
+    display: grid;
+    margin: 30px auto 40px;
+    grid-template-columns: 1fr 335px;
+    column-gap: 1.25rem;
+}
+
+.pitch{
+    height: 618px;
+    position: relative;
+    background:url(phone.png) no-repeat center;
+}
+
+.pitch img{
+    position: absolute;
+    top: 17px;
+    left: 122px;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.form{
+    
+    text-align: center;
+}
+
+form{
+    
+    text-align: center;
+    border: 1px solid rgb(219,219,219);
+    background-color: #ffffff;
+    padding: 1.25rem 2.5rem;
+}
+
+form input{
+    height: 2.25rem;
+    padding: 0 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #262626;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    margin-bottom: 4px;
+}
+
+form button{
+    font-weight: bold;
+    appearance: none;
+    height: 30px;
+    width: 100%;
+    margin-top: 12px;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #0195f6;
+    cursor: pointer;
+}
+
+form button:disabled{
+    background-color: #b2dffc;
+}
+
+form .separator{
+    color: #8e8e8e;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1rem 0 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form .separator::before,.separator::after{
+    content:'';
+    width: 106px;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+form .login-with-facebook{
+    color: #385185;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form .forgot-password{
+    color: #00376b;
+    font-size: 13px;
+}
+
+.signup{
+    text-align: center;
+    border: 1px solid rgb(219,219,219);
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.signup a{
+    font-weight: bold;
+    color: #0095f6;
+}
+
+
+.form .get-app p{
+    font-size: 14px;
+}
+
+.form .get-app img{
+    width: 136px;
+}
+
+.footer{
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer a{
+    color: #8e8e8e;
+    font-size: 12px;
+    margin: 0 3px;
+}
+
+.footer .links{
+    margin-bottom: 10px;
+}
+
+.copy{
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
